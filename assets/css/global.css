@@ -11,9 +11,21 @@
 }
 
 ol.pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+ol.pokemons li {
+    padding: 2rem 1rem;
+    margin: .5rem;
+    border: 1px solid #14A06F;
+    background-color: #14A06F;
+    border-radius: 1rem;
+    color: white;
+    height: 100px;
 }
 
 .roboto-unique {
